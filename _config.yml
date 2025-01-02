@@ -1,0 +1,59 @@
+description: 워니의 파이썬 1시간만에 배우기 책의 소스코드와 내용을 정리한 웹사이트 입니다.
+theme: just-the-docs
+color_scheme: dark
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+aux_links_new_tab: true
+
+url: "https://pythononehour.com"
+
+favicon_ico: "/assets/images/favicon.png"
+
+logo: "/assets/images/logo.png"
+
+aux_links:
+  "Wonieschool":
+    - "https://www.wonieschool.com"
+  "YouTube":
+    - "https://youtube.com/c/teccboiwonie"
+  "GitHub":
+    - "https://github.com/woniesong92/pythononehour"
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
+
+search_enabled: false
+
+enable_copy_code_button: true
